@@ -1,0 +1,26 @@
+DROP DATABASE IF EXISTS s_practice;
+CREATE DATABASE s_practice;
+USE s_practice;
+
+CREATE TABLE phone (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(30) NOT NULL,
+    brand VARCHAR(30),
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE car (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(30) NOT NULL,
+    brand VARCHAR(30),
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE shoe (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(30) NOT NULL,
+    brand VARCHAR(30),
+    PRIMARY KEY (id)
+);
+
+

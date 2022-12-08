@@ -1,9 +1,12 @@
-# cs_template
+# Notebook 9
 
-This is the readme file for your repository. It is a markdown file. Markdown files are common in computer science because they allow for a clean, html friendly file format. 
+In this notebook we will be working with databases. Unlike other notebooks much of your answers will not be direct python code. Rather you are building a database on the given data. 
 
-> This is a blockquote.
+Use the `billboard.csv` file. You will need to write (or more likely copy from past assignments), code that will load that csv file. You will then need to decide how you manipulate that data before you put it in your database. 
 
-`This is code snippet` 
+Note some of the resources here:
+`normalization.html` a resource from a peer of mine on how to normalize data with examples in R.
+`docker-compose.yml` a file I created for you that you can call to build a database with a volume. 
+`tidy-data.pdf` a paper that discusses the importance of 'tidy' data, and how to make your data tidy. 
 
-[link to google classroom](https://classroom.google.com/)
+Have fun!
